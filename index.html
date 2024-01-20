@@ -20,11 +20,10 @@ telwin costom class -->
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
-                        "bike-primary"'#E76F51',
-',
-                        "primary-bg":'#E76F511A',
-,
+                        'clifford':'#da373d',
+                        'bike-primary':"#E76F51" 
+                        'bike-primary-bg':"#E76F51"
+                        
                     }
                 }
             }
@@ -79,30 +78,43 @@ telwin costom class -->
             </div>
         </nav>
         <!-- hedar of corousel -->
-        <div class="carousel w-full lg:h[550px] bg-primary-bg">
+        <div class="carousel w-full lg:h[550px] bg:bike-primary ">
             <!-- selaidar-1 -->
             <div id="slide1" class="carousel-item relative w-full">
-               <div class="flex flex-col lag:flex-row gap-20 p-4 lg:p-24 ">
-                <div class="space-y-7flex-1"> 
-                    <h2 class="text-6xl font-bold">
-                        Ride-on R15 V4 <br> with Smile
-                    </h2>
-                    <p>Amet minim mollit non deserunt ullamco 
-                        est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit.</p>
-                        <button class="btn btn-bike-primary text-red-700">Purchase</button>
-                </div>
-                <div class="flex-1 ">
-                    <img src="images/slider/bike1.png" class=[400px] />
-                </div>
-               </div>
+                <div class=" flex flex-col lg:flex-row gap-20 p-4 lg:p-24 ">
+                    <div class="space-y-7 flex-1">
+                        <h2 class=" text:2xl lg:text-6xl font-bold">
+                            Ride-on R15 V4 <br> with Smile
+                        </h2>
+                        <p>Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit.</p>
+                        <button class="btn bg-pink-800 text-fuchsia-50">Purchase</button>
+                    </div>
+                    <div class="flex-1 ">
+                        <img src="images/slider/bike1.png" class=[400px] />
+                    </div>
+                </div> 
+                
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle"></a>
-                    <a href="#slide2" class="btn btn-circle"></a>
+                    <a href="#slide4" class="btn box-decoration-clone"></a>
+                    <a href="#slide2" class="btn box-decoration-clone"></a>
                 </div>
             </div>
             <!-- selaidar-2 -->
             <div id="slide2" class="carousel-item relative w-full">
-                <img src="images/slider/bike2.png" />
+                <div class=" flex flex-col lg:flex-row gap-20 p-4 lg:p-24 ">
+                    <div class="space-y-7 flex-1">
+                        <h2 class=" text:2xl lg:text-6xl font-bold">
+                            Ride-on R15 V4 <br> with Smile
+                        </h2>
+                        <p>Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit.</p>
+                        <button class="btn btn-bg- text-red-700">Purchase</button>
+                    </div>
+                    <div class="flex-1 ">
+                        <img src="images/slider/bike2.png" class=[400px] />
+                    </div>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle"></a>
                     <a href="#slide3" class="btn btn-circle"></a>
@@ -110,7 +122,19 @@ telwin costom class -->
             </div>
             <!-- selidar-3 -->
             <div id="slide3" class="carousel-item relative w-full">
-                <img src="images/slider/bike3.png" />
+                <div class=" flex flex-col lg:flex-row gap-20 p-4 lg:p-24 ">
+                    <div class="space-y-7 flex-1">
+                        <h2 class=" text:2xl lg:text-6xl font-bold">
+                            Ride-on R15 V4 <br> with Smile
+                        </h2>
+                        <p>Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit.</p>
+                        <button class="btn btn-bike-primary text-red-700">Purchase</button>
+                    </div>
+                    <div class="flex-1 ">
+                        <img src="images/slider/bike3.png" class=[400px] />
+                    </div>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle"></a>
                     <a href="#slide4" class="btn btn-circle"></a>
@@ -118,7 +142,19 @@ telwin costom class -->
             </div>
             <!-- slaidar-4   -->
             <div id="slide4" class="carousel-item relative w-full">
-                <img src="images/slider/bike4.png" class="w-full" />
+                <div class=" flex flex-col lg:flex-row gap-20 p-4 lg:p-24 ">
+                    <div class="space-y-7 flex-1">
+                        <h2 class=" text:2xl lg:text-6xl font-bold">
+                            Ride-on R15 V4 <br> with Smile
+                        </h2>
+                        <p>Amet minim mollit non deserunt ullamco
+                            est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit.</p>
+                        <button class="btn btn-bike-primary text-red-700">Purchase</button>
+                    </div>
+                    <div class="flex-1 ">
+                        <img src="images/slider/bike4.png" class=[400px] />
+                    </div>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle"></a>
                     <a href="#slide1" class="btn btn-circle"></a>
@@ -126,7 +162,117 @@ telwin costom class -->
             </div>
         </div>
     </header>
-    <main>
+    <main class="md:container md:max-auto">
+        <!-- Fetured Bikes In This Year -->
+        <section>
+
+        </section> 
+        <h3 class="text-4xl my-10 font-bold text-center ">Latest Bike</h3>
+        <!--1st card latest News -->
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="card bg-base-100 shadow-xl">
+                <figure><img src="images/others/latest1.png" alt="Shoes" /></figure>
+                <div class="card-body font-medium">
+                    <h2 class="card-title text-24 text-2xl">Ducati XDIAVEL S-73</h2>
+                    <p class="text-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.</p>
+                    <div class="card-actions ">
+                        <button class="btn bg-fuchsia-700 text-white">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd crad? -->
+            <div class="card  bg-base-100 shadow-xl">
+                <figure><img src="images/others/latest2.png" alt="Shoes" /></figure>
+                <div class="card-body font-medium">
+                    <h2 class="card-title text-24 text-2xl">Motorcycles & Scooters</h2>
+                    <p  class="text-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.</p>
+                    <div class="card-actions ">
+                        <button class="btn border-red-600 text-red-600">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd card-body -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure><img src="images/others/latest3.png" alt="Shoes" /></figure>
+                <div class="card-body font-medium">
+                    <h2 class="card-title text-24 text-2xl">2021 Honda CBR500R</h2>
+                    <p  class="text-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.</p>
+                    <div class="card-actions ">
+                        <button class="btn  border-red-600 text-red-600">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="my-24">
+            <h3 class="text-4xl my-10 font-bold text-center ">Happy <span class=" text-[#E76F51]">Clients Says</span></h3>
+            <div > 
+                <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
+                    <!-- costomar revew 1 -->
+                    <div class="card bg-base-100 p-9 border border-gray-400">
+                        <figure><img class="w-36" src="images/others/user-1.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                          <div class="text-center mt-1"> 
+                            <h4 class="text-sm font-samibold text-green-700 space-x-4">Regina Miles</h4>
+                            <p>Banker</p>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card bg-base-100 p-9 border border-gray-400">
+                        <figure><img class="w-36" src="images/others/user-1.png" alt="Shoes" /></figure>
+                        <div class="card-body ">
+                          <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                          <div class="text-center mt-1"> 
+                            <h4 class="text-sm font-samibold text-green-700 space-x-4">Regina Miles</h4>
+                            <p>Banker</p>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card bg-base-100 p-9 border border-gray-400">
+                        <figure><img class="w-36" src="images/others/user-1.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                          <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                          <div class="text-center mt-1"> 
+                            <h4 class="text-sm font-samibold text-green-700 space-x-4">Regina Miles</h4>
+                            <p>Banker</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+        </section>
 
     </main>
     <footer>
